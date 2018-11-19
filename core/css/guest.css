@@ -154,7 +154,7 @@ form #datadirField legend {
 #submit-wrapper .submit-icon {
 	position: absolute;
 	top: 22px;
-	right: 22px;
+	right: 24px;
 	transition: right 100ms ease-in-out;
 	pointer-events: none; /* The submit icon is positioned on the submit button.
 							 From the user point of view the icon is part of the
@@ -162,10 +162,10 @@ form #datadirField legend {
 							 applied to the button instead. */
 }
 
-#submit-wrapper:hover .submit-icon,
-#submit-wrapper:focus .submit-icon,
-#submit-wrapper:active .submit-icon {
-	right: 18px;
+#submit-wrapper:hover .submit-icon.icon-confirm-white,
+#submit-wrapper:focus .submit-icon.icon-confirm-white,
+#submit-wrapper:active .submit-icon.icon-confirm-white {
+	right: 20px;
 }
 
 #reset-password-submit {
@@ -230,7 +230,7 @@ input[type='email'] {
 	font-weight: normal;
 }
 input.login {
-	width: 100%;
+	width: 260px;
 	height: 50px;
 	background-position: right 16px center;
 }
